@@ -1,0 +1,3 @@
+[submodule "dot_config/tmux/plugins/external_tpm"]
+	path = dot_config/tmux/plugins/external_tpm
+	url = https://github.com/tmux-plugins/tpm
