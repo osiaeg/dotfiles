@@ -32,10 +32,10 @@ require("lazy").setup({
     {'hrsh7th/cmp-nvim-lsp'},
     {'hrsh7th/cmp-buffer'},
     {'hrsh7th/cmp-path'},
-    {"williamboman/mason-lspconfig.nvim"},
     {'hrsh7th/cmp-cmdline'},
     {'hrsh7th/nvim-cmp'},
     {"williamboman/mason.nvim"},
+    {"williamboman/mason-lspconfig.nvim"},
     {'terrortylor/nvim-comment'},
     {'windwp/nvim-autopairs'},
     {'folke/which-key.nvim'},
@@ -65,7 +65,7 @@ require("lazy").setup({
         ---@module "ibl"
         ---@type ibl.config
         opts = {},
-    }
+    },
   -- -- Configure any other settings here. See the documentation for more details.
   -- -- colorscheme that will be used when installing plugins.
   -- install = { colorscheme = { "habamax" } },
